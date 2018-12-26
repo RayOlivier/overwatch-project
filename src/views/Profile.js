@@ -13,6 +13,7 @@ class Profile extends Component {
       <div>
         <h1>profile idk</h1>
         <input placeholder="Input battletag..." />
+        <button>Go</button>
       </div>
     );
   }
