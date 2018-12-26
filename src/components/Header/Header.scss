@@ -1,0 +1,6 @@
+@import "../../index.scss";
+
+.nav {
+  height: 5vh;
+  @include flex;
+}
