@@ -31,7 +31,7 @@ export default function reducer(state = initialState, action) {
     case SET_BATTLETAG:
       return {
         ...state,
-        battleTag: this.state.battleTagInput
+        battleTag: state.battleTagInput
       };
     default:
       // console.log("state", state);
