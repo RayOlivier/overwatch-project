@@ -1,14 +1,18 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.scss";
-import UserInfo from "./views/UserInfo";
+import Header from "./components/Header";
+import routes from "./routes";
+import { BrowserRouter } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <UserInfo />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          {routes}
+        </div>
+      </BrowserRouter>
     );
   }
 }

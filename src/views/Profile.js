@@ -7,7 +7,7 @@ import React, { Component } from "react";
 //tryout rxjs for events (watch more of the netflix youtube talks)
 //user redux for all state
 
-class UserInfo extends Component {
+class Profile extends Component {
   render() {
     return (
       <div>
@@ -18,4 +18,4 @@ class UserInfo extends Component {
   }
 }
 
-export default UserInfo;
+export default Profile;
